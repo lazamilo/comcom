@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kontakt — Comcom</title>
+<meta name="description" content="Pišite nam ali pokličite. COMCOM d.o.o. Idrija, Lapajnetova ulica 29.">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preload" href="assets/fonts/MaisonNeue-Book.otf" as="font" type="font/otf" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="kontakt">
+<div data-chrome="nav"></div>
+<main>
+  <section class="phero on-ink" style="padding-bottom:clamp(100px,10vw,180px)">
+    <div class="phero__art"><svg data-contour="13" data-color="#8FD3E3"></svg></div>
+    <div class="crumbs" data-fade><a href="index.html">Domov</a><span>/</span><span>Kontakt</span></div>
+    <div style="position:relative">
+    <div class="contact" id="kontakt">
+      <div class="contact__info">
+        <h2 class="h2" data-split><span class="line"><span>Pogovorimo se</span></span><span class="line"><span>o vašem projektu.</span></span></h2>
+        <dl>
+          <div><dt>Naslov</dt><dd>Lapajnetova ulica 29<br>5280 Idrija, Slovenija</dd></div>
+          <div><dt>Telefon</dt><dd><a href="tel:+38653722020">+386 (0) 5 372 20 20</a></dd></div>
+          <div><dt>E-pošta</dt><dd><a href="mailto:info@comcom.si">info@comcom.si</a></dd></div>
+          <div><dt>Podjetje</dt><dd>COMCOM d.o.o. Idrija</dd></div>
+        </dl>
+      </div>
+      <form class="form" data-form>
+        <div class="field field--full"><label>Kaj vas zanima</label>
+          <div class="topics">
+            <label><input type="checkbox" checked><span>SAP svetovanje</span></label>
+            <label><input type="checkbox"><span>ABAP razvoj</span></label>
+            <label><input type="checkbox"><span>Virtualne elektrarne</span></label>
+            <label><input type="checkbox"><span>Tableau</span></label>
+            <label><input type="checkbox"><span>Drugo</span></label>
+          </div>
+        </div>
+        <div class="field"><label for="f1">Ime in priimek</label><input id="f1" required></div>
+        <div class="field"><label for="f2">Podjetje</label><input id="f2"></div>
+        <div class="field field--full"><label for="f3">E-pošta</label><input id="f3" type="email" required></div>
+        <div class="field field--full"><label for="f4">Sporočilo</label><textarea id="f4" rows="4"></textarea></div>
+        <label class="consent"><input type="checkbox" required>Z oddajo obrazca soglašam, da COMCOM d.o.o. Idrija obdeluje moje osebne podatke za namen odgovora na povpraševanje.</label>
+        <button class="btn btn--brand" type="submit">Pošlji povpraševanje <svg><use href="#i-arrow"/></svg></button>
+        <div class="form__ok">Hvala. Odgovorili vam bomo v najkrajšem možnem času.</div>
+      </form>
+    </div>
+
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="split">
+      <div><h2 class="h2" data-split><span class="line"><span>Idrija,</span></span><span class="line"><span><span class="gray">Slovenija.</span></span></span></h2></div>
+      <div data-reveal>
+        <ul class="ruled"><li>Lapajnetova ulica 29, 5280 Idrija<span>Naslov</span></li><li>+386 (0) 5 372 20 20<span>Telefon</span></li><li>+386 (0) 5 372 20 20<span>Faks</span></li><li>info@comcom.si<span>E-pošta</span></li></ul>
+        <a class="btn btn--ink" style="margin-top:32px" href="https://maps.google.com/?q=Lapajnetova+ulica+29,+5280+Idrija" target="_blank" rel="noopener">Odpri zemljevid <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<div data-chrome="footer"></div>
+<script src="js/chrome.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

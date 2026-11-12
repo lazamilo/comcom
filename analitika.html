@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="sl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Podatkovna analitika in inženiring — Comcom</title>
+<meta name="description" content="Optimizacija virtualnih elektrarn in vizualizacija podatkov s Tableau.">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preload" href="assets/fonts/MaisonNeue-Book.otf" as="font" type="font/otf" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="analitika">
+<div data-chrome="nav"></div>
+<main>
+  <section class="phero">
+    <div class="phero__art"><svg data-contour="7" data-color="#F44C34"></svg></div>
+    <div class="crumbs" data-fade><a href="index.html">Domov</a><span>/</span><span>Podatkovna analitika</span></div>
+    <h1 class="display" data-split style="font-size:clamp(52px,7.6vw,160px);position:relative"><span class="line"><span>Podatkovna analitika</span></span><span class="line"><span>in inženiring.</span></span></h1>
+    <div class="phero__row"><p class="lead" data-fade>Matematični modeli za obvladovanje tveganj, trgovanje in optimizacijo v energetiki in financah ter implementacija BI orodja Tableau.</p><div data-fade><a class="btn btn--ink" href="kontakt.html">Dogovorite se za posvet <svg><use href="#i-arrow"/></svg></a></div></div>
+  </section>
+  <section class="section on-ink" id="vpp">
+    <div class="vpp">
+      <div class="vpp__copy">
+        <h2 class="h2" data-split><span class="line"><span>Več prihodka</span></span><span class="line"><span>iz vsake naprave.</span></span></h2>
+        <p class="lead" data-fade>Naša rešitev za optimizacijo portfelja distribuiranih naprav, združenih v virtualno elektrarno, maksimizira njene prihodke.</p>
+        <div class="streams" id="streams">
+          <div class="stream is-active" data-stream="0">Frekvenčna regulacija <span class="sw"></span></div>
+          <div class="stream is-active" data-stream="1">Nižji stroški omrežnin <span class="sw"></span></div>
+          <div class="stream" data-stream="2">Trgovanje na borzi <span class="sw"></span></div>
+        </div>
+      </div>
+      <div class="term" data-reveal>
+        <div class="term__bar">
+          <div class="term__dots"><i></i><i></i><i></i></div>
+          <div class="term__tabs" id="ttabs"><button class="is-active" data-range="0">Dan</button><button data-range="1">Teden</button><button data-range="2">Mesec</button></div>
+        </div>
+        <div class="term__body">
+          <div class="term__main">
+            <div class="term__kpi">
+              <div><span class="mono">Prihodki portfelja</span><strong id="kRev">€ 0</strong><span class="up" id="kUp">+0,0 %</span></div>
+              <div><span class="mono">Razpoložljiva moč</span><strong>4,8 MW</strong></div>
+              <div><span class="mono">Aktivne naprave</span><strong>126</strong></div>
+            </div>
+            <div class="term__chart" id="tchart"></div>
+          </div>
+          <div class="term__side">
+            <div class="dev"><div>Sončne elektrarne<small>38 enot</small></div><span class="lvl"><i style="width:82%"></i></span></div>
+            <div class="dev"><div>Baterijski hranilniki<small>12 enot</small></div><span class="lvl"><i style="width:64%"></i></span></div>
+            <div class="dev"><div>Toplotne črpalke<small>41 enot</small></div><span class="lvl"><i style="width:47%"></i></span></div>
+            <div class="dev"><div>Polnilnice EV<small>29 enot</small></div><span class="lvl"><i style="width:58%"></i></span></div>
+            <div class="dev"><div>Industrijski odjem<small>6 enot</small></div><span class="lvl"><i style="width:71%"></i></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tableau">
+    <div class="head">
+      <h2 class="h2" data-split><span class="line"><span>Podatki, ki</span></span><span class="line"><span>pomagajo odločati.</span></span></h2>
+      <p class="lead" data-fade>Prediktivna analitika in vizualizacija podatkov sta ključnega pomena za informirane poslovne odločitve.</p>
+    </div>
+    <div class="bento">
+      <div class="card card--a" data-reveal>
+        <h4>Več kot 60 podatkovnih baz v enem pogledu.</h4>
+        <p>Tableau je najbolj fleksibilno orodje na trgu za analizo in vizualizacijo podatkov.</p>
+        <div class="hub" id="hub"></div>
+      </div>
+      <div class="card card--b" data-reveal>
+        <h4>Avtomatizirana poročila in grafi.</h4>
+        <div class="report" id="report"></div>
+      </div>
+      <div class="card card--c" data-reveal>
+        <h4>Modeli strojnega učenja, povezani z R in Python.</h4>
+        <div class="code"><b>import</b> <em>tabpy</em><br><em>model</em> = forecast(<b>"poraba_kWh"</b>)<br><em>client</em>.deploy(<b>"napoved"</b>, model)</div>
+      </div>
+      <div class="card card--d" data-reveal>
+        <div><h4>Preizkusite Tableau 14 dni brezplačno.</h4><p>Kot partner Tableau vam pomagamo od prve vizualizacije do celotne implementacije.</p></div>
+        <a class="btn btn--ink" href="https://www.tableau.com/products/trial" target="_blank" rel="noopener">Preizkusite Tableau <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="split">
+      <div class="sticky"><h2 class="h2" data-split><span class="line"><span>Partner</span></span><span class="line"><span>Tableau.</span></span></h2></div>
+      <div data-reveal>
+        <p class="lead" style="color:var(--ink)">Tableau omogoča integracijo več kot 60 različnih podatkovnih baz, izdelavo avtomatiziranih poročil in grafov ter integracijo modelov strojnega učenja s povezavo na programska jezika R in Python.</p>
+        <p class="lead" style="margin-top:24px">Partnerstvo s podjetjem Tableau strankam zagotavlja, da so naši svetovalci seznanjeni z najnovejšimi trendi na področju BI in imajo vpogled v smeri razvoja bodočih tehnologij.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section on-ink section--tight">
+    <div class="head" style="margin-bottom:0">
+      <h2 class="h2" data-split><span class="line"><span>Imate projekt?</span></span><span class="line"><span><span style="color:#6E7277">Pogovorimo se.</span></span></span></h2>
+      <div style="justify-self:end" data-fade><a class="btn btn--brand" href="kontakt.html">Dogovorite se za posvet <svg><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </section>
+</main>
+<div data-chrome="footer"></div>
+<script src="js/chrome.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
